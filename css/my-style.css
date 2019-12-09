@@ -1,0 +1,462 @@
+@font-face {
+  font-family: "Jonah";
+  src: url("/Users/victoriaguedes/Documents/TECH/_projetos/site grinn/grinn-template/Jonah-Regular.ttf");}
+
+@font-face {
+  font-family: "Lato";
+  src: url("/Users/victoriaguedes/Documents/TECH/_projetos/site grinn/grinn-template/fonte/Lato/Lato-Regular.ttf");}
+
+  @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+  @font-face {
+    font-family: "Gupter";
+    src: url('https://fonts.googleapis.com/css?family=Gupter&display=swap');
+  }
+
+  @import url('https://fonts.googleapis.com/css?family=Gupter&display=swap');
+
+/* mod vmg */
+
+
+.container-a{
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+a.txt-none {
+  text-decoration: none !important;
+}
+
+h1.font-jonah{
+  font-family: "Jonah" !important; 
+  font-family: "Gupter" !important;
+  font-size: 4.2em !important;
+  color: #411408 !important;
+  text-align: center;
+}
+
+h1.font-lato {
+  font-family: "Lato" !important;
+  font-size: 2.1em !important;
+  color: #411408 !important;
+  text-align: center !important;
+  margin-top: 5px;
+}
+
+h2.second-title {
+  margin-top: -25px !important;
+  font-size: 2em !important;
+  text-align: center !important;
+}
+
+.font-jonah{
+  font-family: "Jonah" !important;
+  font-family: "Gupter" !important;
+  color: #411408 !important;
+  font-size: 1.5em;
+  font-style: bold;
+}
+
+/* .text-just {
+  text-align: justify !important;
+} */
+
+h6.margin-head6 {
+  margin: 0 !important;
+  padding: 0px !important;
+}
+
+
+.iron-font {
+  color: #333333;
+}
+
+
+img.opac {
+  opacity: 0.2 !important;
+}
+
+h5.marrom {
+  color: #411408 !important;
+}
+
+li.space {
+  padding-right: 15px;
+}
+
+a.font-lato {
+  font-family: "Lato" !important;
+  font-size: 1.1em !important;
+}
+
+div.background-change{
+  background-color: #d9a859;
+}
+
+.font-lato {
+  font-family: "Lato" !important;
+  font-size: 1.1em !important;
+}
+
+img.main-logo {
+  width: 400px;
+  position: relative;
+}
+
+div.z-depth-1 {
+  margin: 1px !important;
+}
+
+a:link {
+  color: #d9a859 !important;
+}
+
+.hoverup:hover {
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer.margem {
+  margin-bottom: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.mustard {
+  background-color: #d9a859 !important ;
+}
+ .mustard-font {
+  color: #d9a859!important;
+ }
+
+.iron{
+  background-color: #333333 !important ;
+}
+
+.iron-font {
+  color: #333333 !important;
+}
+
+.green-font {
+  color: #40731c;
+}
+
+.green {
+  background-color: #3a6a18;
+}
+
+.white-font {
+  color: slategray !important;
+}
+
+
+/*DROPDOWN LINK*/
+
+
+a.marrom {
+  color: #411408 !important;
+}
+
+.menu-sidebar {
+  font-size: 1.6em !important;
+}
+
+
+/*  footer social icon + contato */
+
+div.minicontainer {
+  position: relative;
+  width: 120px;
+  height: 60px;
+  margin-bottom: 40px;
+  display: block;
+  left: 90%;
+}
+
+div.minicontainer-c {
+text-align: center;
+display: inline-block;
+position: relative;
+margin-top: 5%;
+left: 35%;
+}
+
+p.foot {
+  text-align: center;
+  display: inline;
+}
+
+
+.minicon {
+  display: inline;
+  position: relative;
+  padding-bottom: 20px;
+  bottom: 80%;
+}
+
+.fb-icon {
+  width: 50px;
+  position: absolute;
+  bottom: 80px;
+}
+.ig-icon {
+  width: 47px !important;
+  margin-bottom: 2px;
+}
+
+p.copyright {
+  display: inline;
+  margin-left: 30px;
+  font-size: 0.8em !important;
+}
+
+div.rodape {
+  max-width: 100%;
+}
+.page-footer {
+  width: 1480px !important;
+  display: inline-block !important;
+  right: 0 !important;
+  position: absolute !important;
+}
+
+
+/*QUEM SOMOS*/
+
+.aside-txt {
+  color: #333333;
+  font-family: "Lato", sans-serif, ;
+  font-size: 1.2em;
+  text-align: left;
+  padding: 40px;
+  margin: 10px;
+  line-height: 40px;
+  text-align: justify;
+}
+
+.img-title {
+  margin-top: -20px;
+}
+
+
+.back {
+  background-color: #333333;
+}
+
+.back.other {
+  background-color: aqua;
+}
+
+span.strong-can {
+  font-weight: bolder ;
+}
+
+/* CORES TITULOS DICAS*/
+
+span.color-green {
+  color: #40731c;
+}
+
+span.color-orange {
+  color: rgb(241, 158, 3);
+}
+
+span.color-blue {
+  color: rgb(1, 1, 223);
+}
+
+span.color-purple {
+  color: purple;
+}
+
+span.color-red {
+  color: tomato;
+}
+
+span.color-yellow {
+  color: rgb(235, 200, 5);
+}
+
+
+/*LINK PDF*/
+
+.link-pdf {
+  cursor: pointer;
+}
+
+a.center {
+  font-size: 1.2em;
+  line-height: 10px;
+}
+
+
+/* IMAGENS */
+
+.img-top {
+  width: 600px;
+  display: block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.88;
+  
+}
+
+.img-composteira{
+  width: 300px;
+  display: inline-block;
+  position: relative;
+  margin-left: 25% !important;
+}
+
+img.comp2 {
+  position: absolute;
+  left: 52%;
+  margin-left: 0px !important;
+  transform: translate(-50%, -10%);
+  width: 350px;
+}
+
+img.comp3 {
+  position: absolute;
+  left: 80%;
+  margin-left: 0px !important;
+  transform: translate(-50%, -10%);
+  width: 330px;
+}
+
+div.img-dec {
+  background-color: rgba(217, 168, 89, 0.02);
+  margin-right: -100px;
+  margin-left: -100px;
+  padding: 3px;
+  display: inline;
+  align-content: center;
+}
+
+img.img-side {
+  width: 300px;
+  float: left;
+  margin: 50px;
+  margin-bottom: 5px;
+}
+
+img.coco{
+  margin-bottom: 20px;
+}
+
+img.laranja {
+  top: 20px;
+  margin-bottom: 20px;
+}
+
+.img-groups {
+  width: 200px;
+
+}
+
+.img-sell {
+  width: 220px;
+  border-radius: 15%;
+  /* background-color: rgba(245, 222, 179, 0.4); */
+ 
+}
+
+.comp-p {
+  width: 200px !important;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.img-essencial{
+  width: 200px !important;
+  display: inline-block;
+  position: relative;
+  margin-left: 30% !important;
+}
+
+.img-essencial-s{
+  display: inline-block;
+  position: relative;
+  margin-left: 25% !important;
+}
+
+.img-essencial-m{
+  width: 240px !important;
+  display: inline-block;
+  position: relative;
+  margin-right: 60% !important;
+  left: 70% !important;
+  margin-top: 60px !important;
+}
+
+.essencial-top {
+  width: 420px !important;
+}
+
+
+
+/*DISPLAY LIST IMG*/
+
+.img-kit {
+  width: 380px !important;
+  position: relative;
+  left: 200px;
+}
+
+.list-display {
+  display: inline-block;
+}
+
+.list-img {
+  /* background-color: wheat; */
+  width: 800px;
+}
+
+
+
+
+/*BOTÃO*/
+
+.fixed-btn {
+  float: right !important;
+  /* margin: 60px; */
+  opacity: 0.5;
+}
+
+.center-btn {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 20px;
+}
+
+/*EXTRA*/
+
+nav.fixed {
+  position: fixed;
+  z-index: 100;
+}
+
+#dicas {
+  margin-top: 40px;
+}
+
+/*
+span#para-durar{
+  margin-top: 80px;
+}
+
+span#indicados {
+  margin-top: 60px;
+}
+
+span#chorume{
+  margin-top: 60px;
+}
+
+span#armadilhas{
+  margin-top: 60px;
+}
+
+span#receitas{
+  margin-top: 30px;
+} */

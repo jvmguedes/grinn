@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153875171-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-153875171-1');
+</script>
+
+<!--TITLE -->
+	<title> GRINN </title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS  -->
+  <link rel="stylesheet" type="text/css" href="css/my-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <style type="text/css">
+  	
+  	@font-face {
+    font-family: "Jonah";
+    src: url("/Users/victoriaguedes/Documents/TECH/_projetos/site grinn/grinn-template/fonte/Jonah-Regular.ttf");}
+
+    @font-face {
+    font-family: "Lato";
+    src: url("/Users/victoriaguedes/Documents/TECH/_projetos/site grinn/grinn-template/fonte/Lato/Lato-Regular.ttf");}
+
+    @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+  </style>
+
+</head>
+<body>
+
+<!-- MENU -->
+<nav class="fixed white" role="navigation">
+
+    <div class="nav-wrapper container">
+
+      <!-- MENU LOGO -->
+      <a id="logo-container" href="index.html" class="brand-logo"><img src="img/grinn-LOGO.png" width="90px"></a>
+
+      <!-- MENU RESPONSIVO -->
+      <ul class="right hide-on-med-and-down">
+          <!-- MENU DROPDOWN -->
+          <!-- QUEM SOMOS -->
+          <li class="space">
+            <a class="dropdown-trigger font-jonah" data-target='dropdown1' href="quem-somos.html">&nbsp;a composteira&nbsp;</a>
+              <!-- <ul id='dropdown1' class='dropdown-content'>
+                <li class="font-jonah marrom"><a class="marrom centro" href="#!"></a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li class="font-jonah"><a href="quem-somos.html">o que é grinn</a></li>
+                <li class="font-jonah"><a href="#!">como funciona</a></li>
+                <li class="font-jonah"><a href="#!">os benefícios de compostar</a></li>
+              </ul> -->
+          </li>
+          <!-- ESSENCIAL -->
+          <li class="space">
+            <a class="dropdown-trigger font-jonah" data-target='dropdown2' href="essencial.html">&nbsp;essencial&nbsp;</a>
+              <!-- <ul id='dropdown2' class='dropdown-content'>
+                <li class="font-jonah marrom"><a class="marrom centro" href="#!"></a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li class="font-jonah"><a href="essencial.html">o que é essencial</a></li>
+                <li class="font-jonah"><a href="#!">nosso mecanismo</a></li>
+              </ul> -->
+            </li>
+          <!-- DO IT GRINN -->
+          <li class="space">
+            <a class="dropdown-trigger font-jonah" data-target='dropdown3' href="doitgrinn.html">do it grinn</a>
+              <!-- <ul id='dropdown3' class='dropdown-content'>
+                <li class="font-jonah marrom"><a class="marrom centro" href="#!"></a></li>
+                <li class="divider" tabindex="-1"></li>
+                <li class="font-jonah"><a href="doitgrinn.html">nosso kit</a></li>
+              </ul> -->
+          </li>
+          <!-- DICAS -->
+          <li class="space">
+              <a class="dropdown-trigger font-jonah" data-target='dropdown4' href="dicas.html">&nbsp;dicas&nbsp;</a>
+                <!-- <ul id='dropdown4' class='dropdown-content'>
+                  <li class="font-jonah marrom"><a class="marrom centro" href="#!"></a></li>
+                  <li class="divider" tabindex="-1"></li>
+                  <li class="font-jonah"><a href="dicas.html">para fazer durar</a></li>
+                  <li class="font-jonah"><a href="#!">pesticidas indicados</a></li>
+                </ul> -->
+            </li>
+          <!-- CONTATO -->
+          <li class="space">
+              <a class="dropdown-trigger font-jonah" data-target='dropdown5' href="contatos.html">&nbsp;contato&nbsp;</a>
+                <!-- <ul id='dropdown5' class='dropdown-content'>
+                  <li class="font-jonah marrom"><a class="marrom centro" href="#!"></a></li>
+                  <li class="divider" tabindex="-1"></li>
+                  <li class="font-jonah"><a href="contatos.html">problemas frequentes</a></li>
+                  <li class="font-jonah"><a href="#!">grupo no facebook</a></li>
+                </ul> -->
+            </li>
+          <!-- QUERO MEU KIT -->
+          <li class="space"><a href="meu-kit.html" id="download-button" class="btn waves-effect waves-light mustard">Quero meu kit!</a></li>
+        </ul>
+
+      <!-- MENU SIDEBAR -->
+      <ul id="nav-mobile" class="sidenav">
+        <li><a class="font-jonah menu-sidebar" href="index.html">Início</a></li>
+
+        <li><a class="font-jonah menu-sidebar" href="quem-somos.html">a composteira</a></li>
+
+        <li><a class="font-jonah menu-sidebar" href="essencial.html">essencial</a></li>
+        
+        <li><a class="font-jonah menu-sidebar" href="doitgrinn.html">do it Grinn</a></li>
+        
+        <li><a class="font-jonah menu-sidebar" href="dicas.html">dicas</a></li>
+        
+        <li><a class="font-jonah menu-sidebar" href="contatos.html">contato</a></li>
+
+        <li><a href="meu-kit.html" id="download-button" class="btn waves-effect waves-light mustard font-jonah menu-sidebar">Quero meu kit!</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+<!--  -------------------------------------------- MAIN TITLE ----------------------------------------------- -->
+<div id="index-banner">
+    <div class="section no-pad-bot">
+      <div id="dicas" class="container-title">
+        <br><br>
+        <h1 class="font-jonah img-title">Dicas</h1> 
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="container back">
+          <div class="row center back">
+          </div>
+        </div>
+        </div>
+   <!--  --------------------------------------- ICON BOX ---------------------------------------------   -->
+
+   <div class="container">
+      <div class="section">
+  
+        <div class="row">
+            <a class="txt-none" href="#para-durar">
+              <div class="col s12 m4 hoverup">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="material-icons">spa</i></h2>
+                <h5 class="center font-jonah">Para sua <br>composteira durar</h5>
+                <p class="light center iron-font font-lato">Manter sua composteira é muito simples, mas requer alguns cuidados. Separamos para você algumas dicas para que não apareça nenhuma surpresa desagradável!</p>
+              </div>
+            </div></a>
+  
+          <a class="txt-none" href="#indicados">
+            <div class="col s12 m4 hoverup ">
+              <div class="icon-block">
+                <h2 class="center brown-text"><i class="material-icons">spa</i></h2>
+                <h5 class="center font-jonah">Pesticidas<br> Indicados</h5>
+                <p class="light center iron-font font-lato">Separamos aqui algumas Essências pesticidas (todas naturais!) para afastar insetos e, de quebra, deixar um cheirinho super gostoso na sua casa!</p>
+                <br><br>
+             </div>
+           </div></a>
+  
+          <a class="txt-none" href="#chorume">
+            <div class="col s12 m4 hoverup">
+              <div class="icon-block">
+                <h2 class="center brown-text "><i class="material-icons">spa</i></h2>
+                <h5 class="center font-jonah">Pesticidas com <br> chorume</h5>
+               <p class="light center iron-font font-lato"> Você sabia que o chorume que sai diretamente da sua composteira também serve como um ótimo e eficaz pesticida natural? Pra saber mais, clica aqui! </p>
+               <br><br>
+              </div>
+            </div></a>
+
+            <a class="txt-none" href="#armadilhas">
+                <div class="col s12 m4 hoverup">
+                  <div class="icon-block">
+                    <h2 class="center brown-text "><i class="material-icons">spa</i></h2>
+                    <h5 class="center font-jonah">Armadilhas</h5>
+                    <br>
+                   <p class="light center iron-font font-lato">Para capturar os insetos indesejados que aparecem nas composteiras, não é preciso ir muito longe! Dá uma olhadinha. <br><br> 
+                    </p>
+                  </div>
+              </div></a>
+
+              <a class="txt-none" href="#receitas">
+                  <div class="col s12 m4 hoverup">
+                    <div class="icon-block">
+                      <h2 class="center brown-text "><i class="material-icons">spa</i></h2>
+                      <h5 class="center font-jonah">Receitas com restos <br> não compostáveis</h5>
+                     <p class="light center iron-font font-lato"> É de conhecimento geral que as composteiras não aceitam todos os tipos de resíduos alimentares, em especial, as cascas de frutas cítricas... levando isso em conta, como reaproveitar ainda mais esses restos não compostáveis?</p>
+                    </div>
+                </div></a>
+
+                <a class="txt-none" href="#problemas">
+                  <div class="col s12 m4 hoverup">
+                  <div class="icon-block">
+                    <h2 class="center brown-text"><i class="material-icons">spa</i></h2>
+                    <h5 class="center font-jonah">Problemas <br> frequentes</h5>
+                    <p class="light center iron-font font-lato">Veja essa tabela com os problemas que enfrentamos e suas possíveis soluções!</p>
+                  </div>
+                </div></a>
+        </div>
+      </div>
+    </div>
+
+<!-- -------------------------------------------------- DICAS -----------------------------------------------------  -->
+<span id="para-durar"></span>
+<br><br>
+
+<div id="index-banner">
+    <div class="container-title">
+      <br><br>
+      <h1 class="font-jonah img-title">Para sua composteira <br> durar</h1> 
+    </div>
+  </div>
+
+
+    <article class="container-a">
+      <p class="aside-txt">
+          Manter sua composteira é muito simples, mas requer alguns cuidados. Separamos para você algumas dicas para que não apareça nenhuma surpresa desagradável.  <br>
+          <br>
+          Primeiro, é fundamental que você mantenha sua composteira quentinha, e remexa o adubo sempre que possível, além de lavar a tampa por dentro e por fora, e passar um paninho úmido semanalmente na parte externa da sua GRINN. <br><br>
+          Não coloque alimentos ácidos porque isso causa escassez de oxigênio e pode diminuir o ph e a alcalinidade do meio, o que pode afetar as atividades dos organismos.<br>
+          <br>
+          Para controlar a umidade deixe sempre as suas gavetas cobertas por material seco (como folhas secas, palha ou serragem grossa), pois ele é fonte de carbono e seu equilíbrio com o nitrogênio é um fator muito importante para que sua compostagem seja um sucesso! Mas caso a sua composteira esteja seca, é só acrescentar alguns pedaços de fibra de coco umedecida, vegetais frescos ou até mesmo água!<br>
+          <br>
+          <a class="fixed-btn btn-floating waves-effect waves-light iron" href="#dicas"><i class="material-icons">arrow_upward</i></a>
+       </p>
+
+      </article> 
+  </div>
+
+  <!-- ----------------------------------------------- PESTICIDAS -----------------------------------------------------  -->
+  <span id="indicados"></span>
+  <br><br>
+
+  <div id="index-banner">
+    <div class="section no-pad-bot">
+      <div class="container-title">
+        <br><br>
+        <h1 class="font-jonah img-title">Pesticidas <br> indicados</h1>
+      </div>
+    </div>
+
+    <div class="container">
+
+    <article class="container-a">
+
+      <!------------------- COCO -------------------------->
+        <div class="img-dec">
+            <img class="img-side coco" src="img/dicas/sabao-coco.jpg" alt="foto de sabão de coco">
+          </div>
+      <p class="aside-txt">
+
+          <span class="strong-can color-green">Essencial Coco:</span> <br>
+          Sabão de coco diluído + 100 ml álcool 70 <br> <br>
+          </p>
+          <br> <br>
+
+          <!------------------- LARANJA -------------------------->
+          <div class="img-dec">
+              <img class="img-side laranja" src="img/dicas/cascas-laranja.png" alt="foto de cascas de laranja">
+          </div>
+          <p class="aside-txt">
+              <span class="strong-can color-orange">Essencial Laranja:</span> (casca de laranja + 500 ml de água fervente + 3 gotas de sabão de azeite)
+              Para fazer o essencial laranja basta descascar uma laranja de tamanho médio, despejar 500 ml de água fervente sobre as cascas dentro de um recipiente de vidro e deixar repousar por 24 horas. Importante deixar ele descansar em um local seco e quente e passada as horas é só adicionar algumas gotas de sabão de azeite. E seu pesticida está pronto! Tá, mas quais são seus benefícios? Esse pesticida ajuda a combater insetos de corpo mole, além de atuar contra formigas e baratas evitando assim a presença desses insetos na sua composteira!
+          </p>
+
+          <!------------------- FLORAL -------------------------->
+
+          <div class="img-dec">
+              <img class="img-side floral" src="img/dicas/floral.jpg" alt="foto de crisântemos ">
+          </div>
+          <p class="aside-txt">
+            <span class="strong-can color-purple"> Essencial floral:</span> (100g de crisântemo + 1 litro de água fervidos 20 minutos e coados)
+           </p>
+           <br> <br> <br>
+           <!------------------- TOMATE -------------------------->
+          <div class="img-dec">
+              <img class="img-side tomate" src="img/dicas/tomates.jpg" alt="foto de tomates no pé">
+          </div>
+          <p class="aside-txt">
+          <span class="strong-can color-red">Essencial tomate:</span> (folhas de tomate picadas imersas na água)
+            Para fazer o essencial tomate você vai precisar encher dois copos com folhas de tomate picadas e adicionar água. Deixe descansando por no mínimo uma noite e dilua em mais 2 copos de água. E seu pesticida está pronto! O essencial tomate é um excelente repelente para pulgões, vermes e largatas, mas é importante deixá-lo longe de seus animais domésticos pois pode ser tóxico à eles.
+          </p>
+
+            <!------------------- NEEM ------------------------->
+
+            <div class="img-dec">
+                <img class="img-side neem" src="img/dicas/neem.jpg" alt="foto de oleo de neem">
+            </div>
+            <p class="aside-txt">
+              <span class="strong-can color-green">Essencial neem:</span> (15 ml de óleo de neem + 1 colher de chá de detergente biológico + 2 litro de água morna)
+              Para fazer o essencial neem é necessário misturar 15 ml do óleo de neem com mais meia colher de chá de detergente biológico neutro em 2 litros de água morna. Mexa até ficar homogêneo e coloque no seu essencial GRINN. O óleo de neem é um dos pesticidas naturais mais eficazes!
+            </p>
+
+            <!------------------- MAÇÃ ------------------------->
+
+            <div class="img-dec">
+                <img class="img-side laranja" src="img/dicas/vinagre-maca.jpg" alt="foto de vinagre e maçãs">
+            </div>
+            <p class="aside-txt">
+                <span class="strong-can color-red">Essencial Apple:</span> Vinagre de maçã + 2 colheres de sopa de açúcar + detergente<br>
+            </p>
+            <br><br><br><br>
+
+            <!------------------- CITRONELA ------------------------->
+
+          <div class="img-dec">
+              <img class="img-side laranja" src="img/dicas/citronela.jpg" alt="foto de oleo de citronela">
+          </div>
+          <p class="aside-txt">
+            <span class="strong-can color-yellow"> Citronela Essencial:</span> 150 ml de óleo essencial de citronela + água.<br> <br>
+          </p>
+          <br>
+
+          <p class="aside-txt">
+          Ao combinar as substâncias, o pesticida torna-se ainda mais eficaz.<br> <br>
+          O chá concentrado de capim limão também é um ótimo pesticida.<br> <br>
+          Lembre-se que alguns insetos são positivos para sua compostagem!<br>
+
+          <a class="fixed-btn btn-floating waves-effect waves-light iron" href="#dicas"><i class="material-icons">arrow_upward</i></a>
+         </p>
+      </article>
+  </div>
+
+    <!-- ----------------------------------------------- CHORUME -----------------------------------------------------  -->
+    <span id="chorume"></span>
+    <br><br> 
+
+    <div id="index-banner">
+      <div class="section no-pad-bot">
+        <div class="container-title">
+          <br><br>
+          <h1 class="font-jonah img-title">Pesticidas <br> com chorume</h1>
+        </div>
+      </div>
+
+  <div class="container">
+  <div class="container back">
+    <div class="row center back">
+    </div>
+  </div>
+  </div>
+    <article class="container-a">
+      <p class="aside-txt">
+          Um dos maiores problemas da composteira são os insetos indesejados, e uma das formas de solucionar esse problema é o próprio resultado da sua composteira. O chorume orgânico produzido, além de ser um ótimo biofertilizante, também pode ser utilizado como inseticida natural. Se cada parte de chorume for diluída numa parte de água na proporção meio a meio, a mistura terá potencial inseticida e deverá ser aplicada com um borrifador durante o sol baixo, para que não queime as folhas de cultivo <br>
+          <a class="fixed-btn btn-floating waves-effect waves-light iron" href="#dicas"><i class="material-icons">arrow_upward</i></a>
+       </p>
+      </article>
+  </div>
+
+  <!-- ----------------------------------------------- ARMADILHAS -----------------------------------------------------  -->
+  <span id="armadilhas"></span>
+  <br><br>
+
+  <div id="index-banner">
+    <div class="section no-pad-bot">
+      <div class="container-title">
+        <br><br>
+        <h1 class="font-jonah img-title">Armadilhas</h1>
+      </div>
+    </div>
+
+  <div class="container ">
+  <div class="container back">
+    <div class="row center back">
+    </div>
+  </div>
+  </div>
+
+    <article class="container-a">
+      <p class="aside-txt">
+          Para capturar os insetos indesejados que aparecem nas composteiras, não é preciso ir muito longe. Ao invés de utilizar métodos inseticidas industrializados, que trazem diversos problemas a saúde e ao meio ambiente, a solução para uma armadilha ecológica está nos materiais que iriam para o nosso próprio lixo e que achamos facilmente em nossas casas. <br>
+          <br>
+          Para a armadilha caseira Pega-Pega, um super papel adesivo caseiro, é necessário:<br>
+          <br>
+          Um saco de papel comprido<br>
+          Uma panela pequena<br>
+          Tesoura<br>
+          Furador de papéis (caso não tenha, pode usar lápis/caneta) <br>
+          Barbante<br>
+          60 ml de água<br>
+          60 ml de mel<br>
+          40 g de açúcar. <br>
+          <br>
+          Procedimento:<br>
+          Passo 1 - Primeiro, corte o saco de papel em quatros tiras e faça um buraquinho na ponta de cada um<br>
+                      Passo 2 - Em seguida, corte pedacinhos do barbante para prender em cada um dos papéis em forma de laço<br>
+          Passo 3 - Em uma panela, coloque a água, o mel e o açúcar em fogo médio e cozinhe até que tudo esteja bem dissolvido<br>
+          Passo 4 - Pegue as tiras de papel e mergulhe-as na mistura, cobrindo todo o papel e seus lados.<br>
+          <br>
+          Pronto. O seu Pega-Pega está preparado para capturar as moscas e os mosquitinhos indesejados. Agora é só esperar as tiras de papel secarem em algum varal com um recipiente embaixo para que as gotas não pinguem no chão. Uma vez que estiverem secos, pendure-os perto de sua composteira com a ajuda do barbante, assim vão funcionar como uma cola natural para prender os insetos que tentarem chegar perto. <br>
+          <br>
+          <br>
+          Para construir a outra armadilha caseira, o Funil, os materiais já são mais fáceis e em menor quantidade, tornando essa armação mais prática para aqueles que não querem ter muito esforço. Você vai precisar apenas de:<br>
+          <br>
+          1 recipiente de vidro<br>
+          1 folha de papel (de preferência usada)<br>
+          1 fruta (de preferência limão ou banana) ou 1 favo de mel<br>
+          1 rolo de fita adesiva.<br>
+          <br>
+          Procedimento:<br>
+                      Passo 1 - Coloque um pedaço da fruta no recipiente de vidro<br>
+                      Passo 2 - Enrole a folha de papel de maneira que forme um funil e coloque a ponta na abertura do recipiente<br>
+                      Passo 3 - Com a fita adesiva, sele as bordas para garantir que não haja espaço para os insetos escaparem.<br>
+                      <br>
+          A sua armadilha Funil está pronta. Agora posicione ela próxima a sua composteira e espere que os insetos serão atraídos pelo pedaço de fruta, descendo pelo funil. Quando tentarem escapar não haverá espaço, pois as bordas vão estar seladas com a fita adesiva, fazendo com que depois de um tempo, os insetos morram.<br>
+
+          <a class="fixed-btn btn-floating waves-effect waves-light iron" href="#dicas"><i class="material-icons">arrow_upward</i></a>
+       </p>
+      </article>
+  </div>
+
+  <!-- ------------------------------------------- RESTOS Não COMPOSTAVEIS -----------------------------------------------  -->
+  <span id="receitas"></span>
+  <br><br>
+  
+  
+  <div id="index-banner">
+    <div class="section no-pad-bot">
+      <div class="container-title">
+        <br><br>
+        <h1 class="font-jonah img-title">Receitas com restos <br> não compostáveis</h1>
+      </div>
+    </div>
+
+  <div class="container">
+  <div class="container back">
+    <div class="row center back">
+    </div>
+  </div>
+  </div>
+
+    <article class="container-a">
+      <p class="aside-txt">
+          É de conhecimento geral que as composteiras não aceitam todos os tipos de resíduos alimentares, em especial, as cascas de frutas cítricas - elas desequilibram o ph da mistura de terra - levando isso em conta, como reaproveitar ainda mais esses restos não compostáveis? A resposta está na bioculinária, com receitas fáceis de fazer e que são novidades.<br>
+          <br><br>
+Geléia com a casca do abacaxi<br>
+<br>
+Ingredientes:<br>
+2 cascas de abacaxis<br>
+1 ½ xícara de açúcar<br>
+1 ½ xícara de água<br>
+<br>
+Modo de preparo:<br>
+Deixe as cascas dos abacaxis de molho na água por 12 horas<br>
+Bata a casca no liquidificador junto com o açúcar e a água e depois passe peneire<br>
+Em seguida, leve ao fogo e mexa até engrossar e desgrudar do fundo da panela<br>
+Espere esfriar, conserve em vidros esterilizados e consuma.<br>
+<br><br>
+ Lasquinhas de laranja<br>
+ <br>
+Ingredientes:<br>
+Cascas de laranjas<br>
+1 xícara de açúcar<br>
+Água<br>
+<br>
+Modo de preparo:<br>
+Corte as cascas da laranjas em tirinhas até completar 2 xícaras de tirinhas e coloque em uma tigela<br>
+Cubra a tigela com água e troque a mesma constantemente durante 4 dias<br>
+no 4º dia, escorra a água e adicione as lascas a panela junto com o açúcar<br>
+Mexa bastante até secar as lasquinhas, retire a mistura do fogo e conserve em um pote fechado.<br>
+<br>
+Observação: é possível repetir a receita das lascas de laranja substituindo a laranja pelo limão
+<br><br>
+Suco de casca de abacaxi com capim cidreira<br>
+<br>
+Ingredientes:<br>
+Cascas de 1 abacaxi bem lavadas<br>
+1 xícara (chá) de capim cidreira<br>
+1 litro de água<br>
+Açúcar a gosto (opcional)<br>
+Modo de preparo:<br>
+-Bata as cascas no liquidificador junto com o capim cidreira e a água. <br>
+-Coe e adoce se quiser.<br>
+<br><br>
+Doce de casca de laranja (kri-kri)<br>
+<br>
+Ingredientes: <br>
+Cascas de 2 laranjas<br>
+2 colheres (sopa) de açúcar<br>
+2 colheres (sopa) de farelo de trigo torrado<br>
+Modo de preparo:<br>
+-Corte as cascas em tirinhas e deixe de molho, trocando a água a cada 2 horas, até que percam o amargo.<br>
+-Derreta o açúcar no fogo e acrescente as cascas já enxutas.<br>
+-Espere a calda começar a engrossar e acrescente o farelo de trigo. Mexa até açucarar. <br>
+-Deixe esfriar e guarde em latas.<br>
+<br><br>
+Bolo de casca de laranja<br>
+<br>
+Ingredientes: <br>
+-Massa:<br>
+Casca de 1 laranja<br>
+½ xícaras de água quente<br>
+2 ovos<br>
+1 xícara de açúcar<br>
+2 xícaras de farinha de trigo<br>
+1 colher de fermento<br>
+-Cobertura:<br>
+Suco da laranja<br>
+2 colheres de açúcar<br>
+Modo de preparo:<br>
+Massa:<br>
+-Bata a casca da laranja com a água<br>
+-Acrescente os ovos, o óleo e o açúcar e bata bem<br>
+-Despeje na vasilha e acrescente o trigo e por último o fermento<br>
+-Leve ao forno em uma forma com furo central por aproximadamente 30 minutos em temperatura média.<br>
+Cobertura:<br>
+-Leve o suco e o açúcar ao fogo e deixe a calda engrossar<br>
+-A quantidade de açúcar varia com a quantidade de suco de laranja. 2 sucos de laranja=4 colheres de açúcar<br>
+<br><br>
+Suco de limão com casca<br>
+<br>
+Ingredientes:<br>
+1 limão tahiti<br>
+350 ml de água filtrada<br>
+10 cubos de gelo<br>
+1 colher de sopa de açúcar demerara (opcional)<br>
+Modo de preparo:<br>
+-Lave bem o limão<br>
+-Tire as pontas do limão<br>
+-Corte-o ao meio e retire as partes brancas e sementes<br>
+-Leve ao liquidificador e bata com a água no modo pulsante<br>
+-Coe e leve ao liquidificador novamente, com gelo e açúcar e bata até ficar espumoso<br>
+<br><br>
+Bolo de limão com casca<br>
+<br>
+Ingredientes:<br>
+1 e ½ xícaras de chá de farinha de arroz integral<br>
+3 colheres de sopa de fécula de batata<br>
+4 colheres de sopa de óleo vegetal<br>
+1 limão espremido<br>
+90 ml de água<br>
+1 xícara de chá de açúcar demerara<br>
+2 colheres de sopa de fermento em pó<br>
+Raspas de limão<br>
+Modo de preparo:<br>
+-Misture o açúcar e o óleo, e acrescente aos poucos a farinha, as raspas e o suco de limão<br>
+-Bata bem por 5 minutos<br>
+-Desligue a batedeira e adicione o fermento<br>
+-Coloque em uma forma untada com óleo vegetal e leve ao forno pré-aquecido em 180° graus por 35 a 45 minutos<br>
+-Deixe esfriar<br>
+<br><br>
+Sabia que o limão também serve para limpar superfícies gordurosas?<br><br>
+
+	Para quem não sabe o limão é um desengordurante natural e pode ser utilizado para limpar panelas engorduradas, fogões e balcões da cozinha! Produtos de limpeza além de serem nocivos ao meio ambiente também são à nossa saúde, e além desses benefícios utilizar o limão para isso ainda ajuda a economizar uma graninha.<br>
+  E como faz? É bem simples, é só polvilhar um pouco de sal na metade de um limão que já foi usado e esfregar nas áreas gordurosas e depois limpar com uma toalha ou papel toalha, não é maravilhoso? Só cuidado ao utilizar em bancadas de mármore ou em alguma superfície sensível ao ácido!<br> <br>
+  
+  <a class="fixed-btn btn-floating waves-effect waves-light iron" href="#dicas"><i class="material-icons">arrow_upward</i></a>
+       </p>
+      </article>
+
+
+<!-- --------------------------------------- PROBLEMAS FREQUENTES ----------------------------------------  -->
+<span id="problemas"></span>
+<br><br> 
+
+<div id="index-banner">
+  <div class="section no-pad-bot">
+    <div class="container-title">
+      <br><br>
+      <h1 class="font-jonah img-title">Problemas <br> frequentes</h1>
+    </div>
+  </div>
+
+<div class="container">
+    <div class="container back">
+      <div class="row center back">
+      </div>
+      </div>
+        <div class="img-dec">
+          <img class="img-top" src="img/problemas.png" alt="foto do quadro de problemas frequentes">
+        </div>
+
+</div>
+
+<!-- ------------------------------------------------- FOOTER -------------------------------------------------------  -->
+  <footer class="page-footer iron">
+   
+    <div class="footer-copyright">
+      <div class="container">
+        <br><br><br><br>
+        <p class="copyright">por <a target="_blank" class="brown-text text-lighten-3" 
+        href="https://www.linkedin.com/in/victoria-guedes/">Victória Guedes</a></p>
+
+        <div class="minicontainer-c">
+          <p class="foot"><b>fale com a gente!</b> <br> doitgrinn@grinn.com.br <br> doitgrinn@gmail.com</p>
+        </div>
+
+      <div class="minicontainer">
+        <a target="_blank" href="#"><img src="img/fb.png" class="minicon fb-icon"></a>
+        <a target="_blank" href="https://www.instagram.com/doitgrinn/?hl=pt-br" target="_blank"><img src="img/ig.png" class="minicon ig-icon"></a>
+        <!-- <a target="_blank" href="#"><img src="../img/in.png" class="minicon ldn-icon"></a> -->
+      </div>
+
+
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- --------------------------------------- Scripts ---------------------------------------------------------- -->
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.dropdown-trigger');
+    var instances = M.Dropdown.open(elems, hover);
+  });
+  
+    $('.dropdown-trigger').dropdown();
+  </script>
+
+
+</body>
+</html>
