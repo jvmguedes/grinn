@@ -1,4 +1,4 @@
-# site-grinn
+# Grinn
 
 Primeiro projeto de site em HTML feito e projetado por mim.
 
